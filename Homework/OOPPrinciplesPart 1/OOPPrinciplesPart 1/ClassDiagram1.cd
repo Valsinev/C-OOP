@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SchoolClasses.School" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAABAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>School.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolClasses.Teacher" Collapsed="true">
+    <Position X="2.5" Y="5.25" Width="1.5" />
+    <AssociationLine Name="ICommentable" Type="SchoolClasses.ICommentable" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="5.562" />
+        <Point X="6.438" Y="5.562" />
+        <Point X="6.438" Y="3.562" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAgAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Teacher.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ICommentable" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SchoolClasses.Student" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="SchoolClasses.People" FixedFromPoint="true">
+      <Path>
+        <Point X="1.75" Y="3.062" />
+        <Point X="1.75" Y="4.875" />
+        <Point X="1.25" Y="4.875" />
+        <Point X="1.25" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="ICommentable" Type="SchoolClasses.ICommentable" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="5.941" />
+        <Point X="1.25" Y="7.135" />
+        <Point X="7.125" Y="7.135" />
+        <Point X="7.125" Y="3.562" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAgAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ICommentable" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SchoolClasses.People" Collapsed="true">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>People.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolClasses.Discipline" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="6.25" Width="1.5" />
+    <AssociationLine Name="ICommentable" Type="SchoolClasses.ICommentable" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="6.549" />
+        <Point X="6.75" Y="6.549" />
+        <Point X="6.75" Y="3.562" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAgAAAIAAAAABAAAAAAAACAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Discipline.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ICommentable" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.231" Collapsed="true" />
+  </Class>
+  <Class Name="SchoolClasses.Class" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <AssociationLine Name="ICommentable" Type="SchoolClasses.ICommentable" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="4.031" />
+        <Point X="5.381" Y="4.031" />
+        <Point X="5.381" Y="3.375" />
+        <Point X="6" Y="3.375" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAiAAAIAAAQAAAgAAAAAAAAAAAAAAAAAAIAQAACAAI=</HashCode>
+      <FileName>Class.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ICommentable" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="SchoolClasses.ICommentable" Collapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICommentable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
